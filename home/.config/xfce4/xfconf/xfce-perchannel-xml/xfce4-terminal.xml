@@ -1,0 +1,10 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
+  <property name="background-darkness" type="double" value="0.94999999999999996"/>
+  <property name="color-palette" type="string" value="#1F2229;#D41919;#5EBDAB;#FEA44C;#367bf0;#9755b3;#49AEE6;#E6E6E6;#198388;#EC0101;#47D4B9;#FF8A18;#277FFF;#962ac3;#05A1F7;#FFFFFF"/>
+  <property name="color-use-theme" type="bool" value="true"/>
+  <property name="font-use-system" type="bool" value="false"/>
+  <property name="font-name" type="string" value="CaskaydiaCove Nerd Font Mono Light Italic 12"/>
+</channel>

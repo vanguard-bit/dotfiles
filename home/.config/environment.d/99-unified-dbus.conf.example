@@ -1,0 +1,5 @@
+# Force apps to the systemd user bus so one gnome-keyring serves everyone.
+# Avoids XRDP /tmp/dbus-* buses spawning duplicate keyrings.
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/@UID@/bus
+XDG_RUNTIME_DIR=/run/user/@UID@
+GNOME_KEYRING_CONTROL=/run/user/@UID@/keyring

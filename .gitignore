@@ -1,0 +1,21 @@
+# Never commit real secrets
+home/.config/dotfiles/secrets.zsh
+**/secrets.zsh
+*.pem
+*.key
+.env
+.env.*
+
+# CopyQ runtime / session data
+home/.config/copyq/*.dat
+home/.config/copyq/*.lock
+home/.config/copyq/copyq.pub
+home/.config/copyq/copyq_geometry.ini
+home/.config/copyq/copyq_tabs.ini
+home/.config/copyq/copyq_no_session.ini
+home/.config/copyq/copyq-monitor.ini
+
+# OS / editor noise
+.DS_Store
+*.swp
+*~

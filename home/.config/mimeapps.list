@@ -1,0 +1,8 @@
+[Added Associations]
+application/json=nvim.desktop;userapp-nvim-J5X3M3.desktop;vim.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=atril.desktop;
+text/html=firefox-esr.desktop;
+
+[Default Applications]
+x-scheme-handler/claude=com.anthropic.Claude.desktop
+x-scheme-handler/claude-cli=claude-code-url-handler.desktop
